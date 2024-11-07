@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="74.0832mm" height="74.0832mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 7408.32 7408.32"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:white;fill-rule:nonzero}
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="176.39" y1="3704.16" x2="7231.93" y2="3704.16">
+   <stop offset="0" style="stop-opacity:1; stop-color:#2ADEB3"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#2A79EE"/>
+  </linearGradient>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0" cx="3704.16" cy="3704.16" r="3527.77"/>
+  <polygon class="fil1" points="1408.47,5906.4 2995.44,3637.68 1476.36,1501.91 2896.43,1501.91 3674.36,2712.65 4500.38,1501.91 5863.88,1501.91 4371.67,3588.17 5999.66,5906.4 4581,5906.4 3674.36,4541.49 2771.96,5906.4 "/>
+ </g>
+</svg>

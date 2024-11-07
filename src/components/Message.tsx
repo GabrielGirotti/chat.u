@@ -1,7 +1,7 @@
 export default function Message() {
   return (
     <>
-      <article className="  w-[90vw] flex flex-col items-end">
+      <article className="  w-[90vw] flex flex-col items-end lg:w-96 bg-white">
         <div className=" rounded-lg  font-montserrat p-4 ml-4 shadow-lg flex flex-col items-end">
           <h3 className=" text-green font-bold">Juan</h3>
           <p className="text-right text-black">
@@ -12,7 +12,7 @@ export default function Message() {
         </div>
       </article>
 
-      <article className=" w-[90vw]  flex flex-col items-start">
+      <article className=" w-[90vw]  flex flex-col items-start lg:w-96 bg-white">
         <div className=" rounded-lg  font-montserrat p-4 mr-4 shadow-lg">
           <h3 className=" text-lightblue font-bold">Chat.U</h3>
           <p className="text-black">
@@ -26,21 +26,21 @@ export default function Message() {
         </div>
       </article>
 
-      <article className=" w-[90vw]  flex flex-col items-start">
+      <article className=" w-[90vw]  flex flex-col items-start lg:w-96 bg-white">
         <div className=" rounded-lg  font-montserrat p-4 mr-4 shadow-lg">
           <h3 className=" text-lightblue font-bold">Chat.U</h3>
           <p className="text-black">¿Necesitas más información acerca de este u otro tema? </p>
         </div>
       </article>
 
-      <article className="  w-[90vw] flex flex-col items-end">
+      <article className="  w-[90vw] flex flex-col items-end lg:w-96 bg-white">
         <div className=" rounded-lg  font-montserrat p-4 ml-4 shadow-lg flex flex-col items-end">
           <h3 className=" text-green font-bold">Juan</h3>
           <p className="text-right text-black">¿Cómo es la composición de la misma?</p>
         </div>
       </article>
 
-      <article className=" w-[90vw]  flex flex-col items-start">
+      <article className=" w-[90vw]  flex flex-col items-start lg:w-96 bg-white">
         <div className=" rounded-lg  font-montserrat p-4 mr-4 shadow-lg">
           <h3 className=" text-lightblue font-bold">Chat.U</h3>
           <p className="text-black">
@@ -81,7 +81,7 @@ export default function Message() {
         </div>
       </article>
 
-      <article className=" w-[90vw]  flex flex-col items-start">
+      <article className=" w-[90vw]  flex flex-col items-start lg:w-96 bg-white">
         <div className=" rounded-lg  font-montserrat p-4 mr-4 shadow-lg">
           <h3 className=" text-lightblue font-bold">Chat.U</h3>
           <p className="text-black">¿Necesitas más información acerca de este u otro tema? </p>
