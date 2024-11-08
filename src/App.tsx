@@ -23,15 +23,24 @@ function App() {
     >
       <div className="lg:relative lg:h-[100vh]">
         <button
-          className="hidden lg:block cursor-pointer lg:absolute lg:bottom-10 lg:right-10 "
+          className="hidden lg:flex cursor-pointer lg:absolute lg:bottom-10 lg:right-10 flex-col items-center gap-3 "
           onClick={handleOpen}
         >
+          <p
+            className={`${
+              dark === false
+                ? "bg-white text-lightblue"
+                : "bg-lightblue text-white"
+            }  p-4 shadow-xl rounded-lg font-montserrat font-semibold`}
+          >
+            ¿Precisas ayuda?
+          </p>
           <img
             src="/circleicon.svg"
             alt="Open Chat.U Icon"
             className={` ${
               open === false
-                ? "lg:w-14 lg:pb-5 lg:hover:scale-110 lg:transition lg:duration-300  "
+                ? "lg:w-14 lg:pb-5 lg:hover:scale-110 lg:transition lg:duration-300"
                 : "lg:hidden"
             } `}
           />
@@ -53,7 +62,6 @@ function App() {
         <Description dark={dark} />
 
         <Footer dark={dark} />
-        
       </div>
     </main>
   );
