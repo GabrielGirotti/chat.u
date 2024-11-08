@@ -25,9 +25,9 @@ export default function Message({ dark }: MessageProps) {
           <div
             className={`${
               message.name !== "Chat.U"
-                ? "flex-col items-end"
-                : "flex-col items-start"
-            } font-montserrat p-4 ml-4 flex `}
+                ? "flex-col items-end ml-4"
+                : "flex-col items-start mr-4"
+            } font-montserrat p-4  flex `}
           >
             <h3
               className={` ${
