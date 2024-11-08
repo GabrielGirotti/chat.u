@@ -1,6 +1,6 @@
 export default function MessageForm() {
   return (
-    <nav className=" w-[100%] m-auto flex flex-col justify-between p-4 fixed bottom-0 bg-white/75 lg:max-w-96">
+    <nav className=" w-[100%] m-auto flex flex-col justify-between p-4 fixed bottom-0 bg-black/45 lg:max-w-[415px]">
       <form className="bg-white flex items-end gap-4 shadow-lg rounded-xl px-4 py-2 ">
         <textarea
           id="description"

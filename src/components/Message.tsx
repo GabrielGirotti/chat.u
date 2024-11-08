@@ -1,10 +1,20 @@
-export default function Message() {
+type MessageProps = {
+  dark: boolean;
+};
+
+export default function Message({ dark }: MessageProps) {
   return (
     <>
-      <article className="  w-[90vw] flex flex-col items-end lg:w-96 bg-white">
-        <div className=" rounded-lg  font-montserrat p-4 ml-4 shadow-lg flex flex-col items-end">
+      <article
+        className={` ${
+          dark === false
+            ? "bg-white text-black"
+            : "bg-gradient-to-l from-lightblue/15 text-white"
+        } w-[90vw] lg:w-96 lg:mx-4 lg:py-1  rounded-lg shadow-lg`}
+      >
+        <div className="  font-montserrat p-4 ml-4 flex flex-col items-end">
           <h3 className=" text-green font-bold">Juan</h3>
-          <p className="text-right text-black">
+          <p className="text-right ">
             {" "}
             Hola, me gustaria tener una breve informacion acerca de la Matriz
             extracelular
@@ -12,10 +22,16 @@ export default function Message() {
         </div>
       </article>
 
-      <article className=" w-[90vw]  flex flex-col items-start lg:w-96 bg-white">
-        <div className=" rounded-lg  font-montserrat p-4 mr-4 shadow-lg">
+      <article
+        className={` ${
+          dark === false
+            ? "bg-white text-black"
+            : "bg-gradient-to-r from-lightblue/15 text-white"
+        } w-[90vw] lg:w-96  lg:mx-4 lg:py-1  rounded-lg shadow-lg`}
+      >
+        <div className=" font-montserrat p-4 mr-4 ">
           <h3 className=" text-lightblue font-bold">Chat.U</h3>
-          <p className="text-black">
+          <p>
             {" "}
             La matriz extracelular corresponde a un conjunto de proteínas y
             polisacáridos secretados por las células animales, los que se
@@ -26,29 +42,47 @@ export default function Message() {
         </div>
       </article>
 
-      <article className=" w-[90vw]  flex flex-col items-start lg:w-96 bg-white">
-        <div className=" rounded-lg  font-montserrat p-4 mr-4 shadow-lg">
+      <article
+        className={` ${
+          dark === false
+            ? "bg-white text-black"
+            : "bg-gradient-to-r from-lightblue/15 text-white"
+        } w-[90vw] lg:w-96  lg:mx-4 lg:py-1  rounded-lg shadow-lg`}
+      >
+        <div className=" font-montserrat p-4 mr-4 ">
           <h3 className=" text-lightblue font-bold">Chat.U</h3>
-          <p className="text-black">¿Necesitas más información acerca de este u otro tema? </p>
+          <p>¿Necesitas más información acerca de este u otro tema? </p>
         </div>
       </article>
 
-      <article className="  w-[90vw] flex flex-col items-end lg:w-96 bg-white">
-        <div className=" rounded-lg  font-montserrat p-4 ml-4 shadow-lg flex flex-col items-end">
+      <article
+        className={` ${
+          dark === false
+            ? "bg-white text-black"
+            : "bg-gradient-to-l from-lightblue/15 text-white"
+        } w-[90vw] lg:w-96  lg:mx-4 lg:py-1  rounded-lg shadow-lg`}
+      >
+        <div className="  font-montserrat p-4 ml-4 flex flex-col items-end">
           <h3 className=" text-green font-bold">Juan</h3>
-          <p className="text-right text-black">¿Cómo es la composición de la misma?</p>
+          <p className="text-right ">¿Cómo es la composición de la misma?</p>
         </div>
       </article>
 
-      <article className=" w-[90vw]  flex flex-col items-start lg:w-96 bg-white">
-        <div className=" rounded-lg  font-montserrat p-4 mr-4 shadow-lg">
+      <article
+        className={` ${
+          dark === false
+            ? "bg-white text-black"
+            : "bg-gradient-to-r from-lightblue/15 text-white"
+        } w-[90vw] lg:w-96  lg:mx-4 lg:py-1  rounded-lg shadow-lg`}
+      >
+        <div className=" font-montserrat p-4 mr-4 ">
           <h3 className=" text-lightblue font-bold">Chat.U</h3>
-          <p className="text-black">
+          <p>
             {" "}
             La composición de la matriz consta principalmente de tres tipos de
             moléculas:{" "}
           </p>
-          <ul className="flex flex-col gap-3 mt-3 text-black">
+          <ul className="flex flex-col gap-3 mt-3 ">
             <li>
               <strong>Proteínas fibrosas:</strong> El <strong>colágeno</strong>{" "}
               y la <strong>elastina</strong> forman una fina red que proporciona
@@ -81,12 +115,18 @@ export default function Message() {
         </div>
       </article>
 
-      <article className=" w-[90vw]  flex flex-col items-start lg:w-96 bg-white">
-        <div className=" rounded-lg  font-montserrat p-4 mr-4 shadow-lg">
+      <article
+        className={` ${
+          dark === false
+            ? "bg-white text-black"
+            : "bg-gradient-to-r from-lightblue/15 text-white"
+        } w-[90vw] lg:w-96  lg:mx-4 lg:py-1 rounded-lg shadow-lg`}
+      >
+        <div className=" font-montserrat p-4 mr-4 ">
           <h3 className=" text-lightblue font-bold">Chat.U</h3>
-          <p className="text-black">¿Necesitas más información acerca de este u otro tema? </p>
+          <p>¿Necesitas más información acerca de este u otro tema? </p>
         </div>
-      </article>
+      </article> 
     </>
   );
 }
