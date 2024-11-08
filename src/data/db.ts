@@ -45,7 +45,7 @@ export const db: Msg[] = [
     id: 8,
     name: "Chat.U",
     message:
-      "Proteínas de adhesión: Son glucoproteínas</strong> que participan en la adhesión de los componentes de la matriz entre sí, entre la célula y la matriz, y entre células. Algunos ejemplos de estas proteínas son la fibronectina y la laminina. La fibronectina facilita la adhesión entre células y entre células y fibras de colágeno.",
+      "Proteínas de adhesión: Son glucoproteínas que participan en la adhesión de los componentes de la matriz entre sí, entre la célula y la matriz, y entre células. Algunos ejemplos de estas proteínas son la fibronectina y la laminina. La fibronectina facilita la adhesión entre células y entre células y fibras de colágeno.",
   },
   {
     id: 9,

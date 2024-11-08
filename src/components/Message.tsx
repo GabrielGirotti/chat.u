@@ -11,6 +11,7 @@ export default function Message({ dark }: MessageProps) {
     <>
       {data?.map((message) => (
         <article
+          key={message.id}
           className={` ${
             dark === false
               ? "bg-white text-black"
