@@ -1,5 +1,7 @@
 import { useState } from "react";
 import ChatLayout from "./layouts/ChatLayout";
+import Description from "./components/Description";
+import Footer from "./components/Footer";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -48,48 +50,10 @@ function App() {
           />
         </section>
 
-        <section className=" hidden lg:flex  flex-col items-start font-montserrat font-bold text-center p-20 ">
-          <h2 className=" text-green text-2xl">Prueba técnica:</h2>
-          <h3 className="text-2xl text-lightblue">
-            Diseño y maquetado de chatbot
-          </h3>
-          <p
-            className={`text-base mt-4 font-normal w-[700px] text-left ${
-              dark === false ? "text-black" : "text-white"
-            } `}
-          >
-            La siguiente es una prueba técnica donde se realizó el diseño
-            completo para un chatbot, dirigido a estudiantes de biología.
-            <br />
-            Tomando colores relacionados con el campo de la investigación, la
-            ciencia, tecnología y la biología, se creó un iso que represente
-            tanto el campo de estudio como la comunicación.
-            <br />
-            Se maqueto una interfaz intuitiva, rápida de usar y fácil de leer,
-            para así no generar distracción en el usuario.
-            <br />
-            El maquetado web está orientado a mobile first, entendiendo que en
-            pantallas pequeñas, sería el mayor uso de la aplicación.
-          </p>
-        </section>
-        <footer className="hidden p-20 lg:flex flex-col items-start font-montserrat  ">
-          <p className="font-semibold text-lightblue">
-            Realizado por Gabriel Girotti
-          </p>
-          <a
-            className={`${
-              dark === false ? "text-black" : "text-white"
-            }  flex justify-center items-center gap-1`}
-            href="https://github.com/GabrielGirotti/chat.u"
-          >
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-download-in-svg-png-gif-file-formats--70-flat-social-icons-color-pack-logos-432516.png?f=webp&w=256"
-              alt="Github Logo"
-              className="w-5"
-            />
-            <p>Repositorio en GitHub</p>
-          </a>
-        </footer>
+        <Description dark={dark} />
+
+        <Footer dark={dark} />
+        
       </div>
     </main>
   );
